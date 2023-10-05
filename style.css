@@ -1,0 +1,88 @@
+*{
+    font-family: 'Manrope', sans-serif;
+/* font-family: 'Martian Mono', monospace; */
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+    /* background-color: rgb(237, 236, 234); */
+}
+
+.center{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    
+
+}
+.cardDiv{
+    padding: 1rem;
+    border:1px solid darkgoldenrod;
+    box-shadow: 0rem 0rem 0.5rem rgb(30, 26, 16);
+}
+.heading{
+    text-transform: uppercase;
+    color: darkgoldenrod;
+}
+.headingspan{
+    text-transform: uppercase;
+    color: black;
+}
+.subheadingspan{
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: black;
+}
+.subheading{
+    color: darkgoldenrod;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+.startTimeSpan{
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+.startTime{
+    font-weight: 500;
+}
+.endTimeSpan{
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+.endTime{
+    font-weight: 500;
+}
+.tfhours{
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+.no{
+    color: black;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid darkgoldenrod;
+    color: darkgoldenrod;
+    font-weight: 500;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+a:hover{
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+@media screen and (max-width:500px){
+    .center{
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 2rem;
+        
+    
+    }
+}
